@@ -311,7 +311,7 @@ System.out.println(str2==str3);//false
 		  String str4 = str1 + str2; //在堆上创建的新的对象	  
 		  String str5 = "string";//常量池中的对象
 		  System.out.println(str3 == str4);//false
-		  System.out.println(str3 == str5);//true
+		  System.out.println(str3 == str5);//true 我测试了一下  是false
 		  System.out.println(str4 == str5);//false
 ```
 ![](https://user-gold-cdn.xitu.io/2018/8/22/16561e59a4d13f92?w=593&h=603&f=png&s=22265)
